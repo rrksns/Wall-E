@@ -1,10 +1,15 @@
-title : Wall-E - Jekyll
-description: 'A Modern Jekyll Theme'
+#Site setting
+title : 기억을 걷는 시간
+description: 'Note of Memory'
+url:"https://rrksns.github.io"
+author:
+  name:"Seol Lee"
 
+#Build settings
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
+paginate: 10
 baseurl: /
 plugins: [jekyll-gist]
 permalink: /:year/:month/:title.html
